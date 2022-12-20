@@ -1,0 +1,118 @@
+
+@import url("font-awesome.min.css");
+@import url("framework.css");
+#header #logo{margin:30px 0 0 0;}
+#header #logo a{color:inherit;}
+
+nav ul, nav ol{margin:0;
+	 padding:0;
+	  list-style:none;}
+#mainav ul{text-transform:uppercase;}
+
+#mainav li{display:inline-block;
+	 position:relative;
+	  margin:0 15px 0 0;
+	   padding:0;}
+
+#mainav li a{display:inline-block;
+	 padding:30px 0;}
+
+#mainav li a{color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#CF9C67; 
+	background-color:inherit;}
+
+#pageintro{padding:180px 0;}
+#pageintro article{
+	 text-align:center;}
+#pageintro .heading{margin-bottom:20px;
+	 font-size:3rem;}
+#pageintro .f {
+    font-size: 20px;
+}
+
+.btn, .btn.inverse:hover{color:#FFFFFF; 
+	background-color:#CF9C67;
+	 border-color:#CF9C67;}
+.btn:hover, .btn.inverse{color:inherit;
+	 background-color:transparent;
+	  border-color:inherit;}
+
+.container{padding:80px 0;}
+
+
+.sectiontitle{display:block;
+
+	  margin:0 auto 80px; 
+	  text-align:center;}
+
+.sectiontitle *{margin:0;}
+
+.team{margin-bottom:80px;}
+.team figure{
+	max-width:320px;
+	margin-left: 11.5%;
+	width: 32%;}
+
+.team figure figcaption{
+	padding-top:15px;
+	text-align:center;}
+
+.faico{margin:0;
+	 padding:0;
+	  list-style:none;}
+.faico li{display:inline-block;
+	 margin:8px 5px 0 0; 
+	 padding:0;
+	  line-height:normal;}
+.faico li:last-child{margin-right:0;}
+.faico a{ display: inline-block;
+    width: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 24px;}
+
+.faico a{color:#FFFFFF; background-color:#000000;}
+
+
+.faicon-dribble:hover{background-color:#EA4C89;}
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-google-plus:hover{background-color:#DB4A39;}
+.faicon-linkedin:hover{background-color:#0E76A8;}
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-vk:hover{background-color:#4E658E;}
+
+#footer{padding:80px 0;}
+#footer .heading{margin-bottom:50px;
+	 font-size:1.2rem;}
+#footer .linklist li{display:block;
+	 margin-bottom:15px; 
+	padding:0 0 15px 0;
+	 border-bottom:1px solid;}
+.imgover::after {
+
+    color: white;
+}
+
+a{color:#CF9C67;}
+a:active, a:focus{
+	background:transparent;}
+
+.overlay{color:#FFFFFF;
+
+
+	 /* background-color:inherit; */
+	}
+
+.overlay::after{
+	
+	
+	color:inherit;
+	 background-color:rgba(0,0,0,.8);}
+.overlay.light::after{background-color:rgba(0,0,0,.55);}
+
+/* #footer hr, #footer .borderedbox, #footer .linklist li{
+	border-color:rgba(0,0,0,.1);} */
+@media screen and (min-width:978px){
+	.hoc{max-width:980px;}
+}
+

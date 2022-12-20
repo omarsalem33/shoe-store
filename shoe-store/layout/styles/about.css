@@ -1,0 +1,149 @@
+body{
+	margin:10px;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	background-image: url(../../img/about/bg3.jpg);
+	background-attachment: fixed;
+	  background-size: 100% 100%;
+}
+.container{
+	width: 100%;
+	/* height: 100vh; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin:10px;
+}
+.nav span{
+	margin-left: 20px;
+}
+.about-us{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+.who-we-are{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.who-we-are span{
+	width: 70%;
+	align-items: center;
+text-align: center;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:7px;
+	flex-wrap: wrap;
+}
+.card-img{
+	border-radius: 7px;
+}
+.cards .card{
+	width: 12rem;
+	margin: 5px;
+}
+.card p{
+	font-size: 12px;
+}
+.social-media{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.social-media i{
+	margin:10px;
+}
+.active{
+	border-bottom: 1px solid #fff;
+}
+.card-img1{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/00.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img2{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/os.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img3{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/ey.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img4{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/emad.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img5{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/amr.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img6{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/aya.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img7{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/s.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img8{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/a.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img9{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/aa.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.card-img10{
+	width: 100%;
+	height: 10rem;
+	background-image: url('../../img/about/pp.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.logo{
+	font-family: 'Dancing Script',cursive;
+	font-size: 24px;
+}
+
+

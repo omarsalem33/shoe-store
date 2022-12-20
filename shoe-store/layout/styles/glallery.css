@@ -1,0 +1,21 @@
+.first container {
+    max-width: 100%;
+    background-color: blue;
+  }
+/* 
+  fieldset {
+    background-image: url(ni.jpg);
+    background-size: 55%;
+    width: 100%;
+  } */
+
+
+  footer {
+    background-color: rgba(101, 209, 228, 0.747);
+    padding: 25px;
+  }
+  h1{
+
+   color: #272738d9;
+    font-size: 50px;
+  }
